@@ -1,23 +1,13 @@
 {
-    "name": "nelmio/solarium-bundle",
+    "name": "btmoda/solarium-bundle",
     "description": "Integration with solarium solr client.",
     "keywords": ["solr", "solarium", "search"],
     "type": "symfony-bundle",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Nelmio",
-            "homepage": "http://nelm.io"
-        },
-        {
-            "name": "Symfony Community",
-            "homepage": "https://github.com/nelmio/NelmioSolariumBundle/contributors"
-        }
-    ],
     "require": {
         "php": ">=5.5",
         "symfony/framework-bundle": "^2.3 || ^3.0 || ^4.0",
-        "solarium/solarium": "^3.3"
+        "solarium/solarium": "^4.0.0-beta.1"
     },
     "require-dev": {
         "symfony/phpunit-bridge": "~3.3@dev"
